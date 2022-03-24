@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NasFibras - Telecom</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="topo__site" id="topo_site">
+        <figure class="logo__nasfibras">
+            <img src="./src/img/logo2.png" alt="logomarca nas fibras" class="logo__nasfibras-logo">
+        </figure>
+        <!--
+        <div class="ip_selector">
+            <script type="text/javascript">
+                var userip;
+            </script>
+
+            <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+
+            <script type="text/javascript">
+                document.write("Seu IP é:", userip);
+            </script>
+        </div>
+    -->
+        <nav class="navegacao_bar">
+            <ul>
+                <li><a href="https://www.nasfibras.com.br">Home</a></li>
+                <li><a href="#conheca">Sobre Nós</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#form_contato">Contato</a></li>
+                <li><a href="http://central.nasfibras.com.br" target="blank">Central do Assinante</a></li>
+                <li class="assine_ja">Assine Já</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="blank__miolo">
+
+        </div>
+    </div>
+
+
+    <footer>
+        <section class="form_contato" id="form_contato">
+            <label class="form_contato form__contato-titulo">Fale com a gente</label>
+            <form action="submit" class="form__contato form__contato-form">
+                <label for="form__contato-nome">Nome</label>
+                <input type="text" class="form__contato form__contato-nome" id="form__contato-nome" />
+                <label for="form__contato-email">Email</label>
+                <input type="text" class="form__contato form__contato-email" id="form__contato-email" />
+                <label for="form__contato-telefone">Telefone</label>
+                <input type="text" class="form__contato form__contato-telefone" id="form__contato-telefone" />
+                <label for="form__contato-mensagem">Mensagem</label>
+                <input type="text" class="form__contato form__contato-mensagem" id="form__contato-mensagem" />
+                <button type="submit" class="form__contato form__contato-bnt_enviar">Enviar</button>
+            </form>
+
+            <form action="http://formmail.kinghost.net/formmail.cgi" method="POST">
+                <input type="hidden" name="recipient" value="testeiseuemail@gmail.com">
+                <!-- Pode ser qualquer endereço de email -->
+                <input type="hidden" name="redirect" value="http://seudominio">
+                <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+                <input type="hidden" name="subject" value="teste de assunto">
+                <!-- Assunto da mensagem -->
+                <input type="hidden" name="email" value="email@doseudominio">
+                <!-- Deve ser uma conta de email ativa em seu domínio -->
+                <!-- Deve ser uma conta de email ativa em seu domínio -->
+        </section>
+
+
+        <!-- <figure class="logo__footer"> -->
+        <img src="./src/img/logo2.png" alt="logomarca nas fibras" class="logo__nasfibras-footer">
+        <!-- </figure> -->
+        <div class="contato__footer-container">
+            <div class="contato__footer">
+                <h3 class="contato__footer contato__footer-cidade"><span><img src="" class="footer__ico"></span>Peruíbe</h3>
+                <p>Av. Santos Dummont, 92 - Loja 02 - Centro</p>
+            </div>
+            <div class="contato__footer">
+                <h3><span><img src="" class="footer__ico"></span>(13) 99178-3062 </h3>
+                <p>Telefone | Whatsapp</p>
+            </div>
+            <div class="contato__footer">
+                <h3><span><img src="" class="footer__ico"></span></h3>
+                <p>comercial@nasfibras.com.br</p>
+            </div>
+        </div>
+
+        <div id="topo_img" class="topo_img">
+            <a href="#topo_site">
+                <img src="./src/img/topo.png"></a>
+            <!-- <p>Subir</p> -->
+        </div>
+    </footer>
+    <div id="root">
+        <section class="copy_footer">
+            <p>&copy; Copyright 2022 - <a href="http://www.nasfibras.com.br">nasFibras Internet</a> - todos os direitos reservados.</p>
+            <p>De acordo com a Lei nº 9.610 de 1998. </p>
+        </section>
+    </div>
+    <div class="whats_btn">
+        <a href="https://api.whatsapp.com/send?phone=5513991783062&text=Site%20-%20informa%C3%A7%C3%B5es%20de%20Planos%20de%20Internet" target="_blank"><img src="./src/img/whatsapp.png"></a>
+    </div>
+    <script src="//c.speedtestcustom.com/static/js/testBundle.js?v=1646866193322" crossorigin></script>
+    <script src="./src/js/script.js"></script>
+    <script src="./src/js/app.js"></script>
+
+</body>
+
+</html>
