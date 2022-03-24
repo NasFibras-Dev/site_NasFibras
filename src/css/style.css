@@ -57,18 +57,29 @@
 }
 
 .logo__nasfibras {
-    max-width: 60%;
+    max-width: 25%;
     height: 100px;
 }
 
 .logo__nasfibras img {
-    width: 24%;
+    width: 45%;
     margin: 0px 0 0 30px;
     box-shadow: 2px solid #fff;
 }
 
+.ip_selector {
+    text-align: center;
+    width: 11%;
+    margin-right: 30px;
+}
+
+.ip_selector div {
+    color: var(--nav-active);
+}
+
 .navegacao_bar {
     color: var(--texto-menu);
+    width: 40%;
 }
 
 .navegacao_bar ul {
@@ -82,7 +93,7 @@
 
 .navegacao_bar ul li {
     padding: 10px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: bold;
     font-family: Arial;
     color: var(--texto-menu);
@@ -102,6 +113,10 @@ header nav ul li {
 .navegacao_bar ul li:active {
     background-color: var(--nav-active);
     border-radius: 5px;
+    color: var(--texto-menu);
+}
+
+.navegacao_bar ul li a {
     color: var(--texto-menu);
 }
 
@@ -132,6 +147,10 @@ header nav ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.blank__miolo {
+    height: 340px;
 }
 
 .box__intro {
@@ -192,6 +211,7 @@ header nav ul li {
 .home button:hover {
     box-shadow: 2px solid #fff;
     cursor: pointer;
+    border-radius: 10px;
     width: 70%;
     height: 25%;
     transition: 0.5s, transform 0.5s;
@@ -399,8 +419,8 @@ footer {
 }
 
 .logo__nasfibras-footer {
-    width: 20%;
-    height: 80%;
+    width: 13%;
+    height: 50%;
 }
 
 .form__contato-form {
@@ -444,11 +464,17 @@ footer form button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -20px;
 }
 
 .contato__footer {
     color: #fff;
     margin-top: 15px;
+}
+
+.contato__footer-cidade {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
 }
 
 #root {
@@ -465,7 +491,15 @@ footer form button {
 
 #topo_img {
     font-weight: 800;
+    /* text-align: center; */
+    float: right;
+    position: fixed;
+    bottom: 125px;
+    right: 55px;
+    color: #FFF;
     text-align: center;
+    font-size: 18px;
+    z-index: 1000;
 }
 
 #topo_img img {
