@@ -1,4 +1,4 @@
-    @media screen and (max-width: 620px) {
+    @media screen and (min-width: 250px) and (max-width: 620px) {
         .topo__site {
             height: 80px;
         }
@@ -25,7 +25,7 @@
             width: 80%;
         }
         .home h1 {
-            font-size: 1.4rem;
+            font-size: 1.1rem;
         }
         .home h3 {
             font-size: 1rem;
@@ -129,7 +129,7 @@
         }
         #topo_img {
             bottom: 119px;
-            right: 17px;
+            right: 60px;
         }
         #topo_img img {
             width: 40px;
@@ -138,7 +138,7 @@
         .whats_btn img {
             width: 43px;
             bottom: 67px;
-            right: 17px;
+            right: 60px;
         }
     }
     
@@ -274,7 +274,7 @@
         }
         #topo_img {
             bottom: 119px;
-            right: 17px;
+            right: 60px;
         }
         #topo_img img {
             width: 40px;
@@ -283,7 +283,7 @@
         .whats_btn img {
             width: 43px;
             bottom: 67px;
-            right: 17px;
+            right: 60px;
         }
     }
     
@@ -419,7 +419,7 @@
         }
         #topo_img {
             bottom: 119px;
-            right: 17px;
+            right: 60px;
         }
         #topo_img img {
             width: 40px;
@@ -428,7 +428,7 @@
         .whats_btn img {
             width: 43px;
             bottom: 67px;
-            right: 17px;
+            right: 60px;
         }
     }
     
@@ -446,6 +446,9 @@
             display: flex;
             font-size: 1rem;
             text-align: center;
+        }
+        .menu_hamburguer {
+            display: none;
         }
         .navegacao_bar {
             color: var(--texto-menu);
@@ -581,7 +584,7 @@
         }
         #topo_img {
             bottom: 119px;
-            right: 17px;
+            right: 60px;
         }
         #topo_img img {
             width: 40px;
@@ -590,11 +593,17 @@
         .whats_btn img {
             width: 43px;
             bottom: 67px;
-            right: 17px;
+            right: 60px;
         }
     }
     
     @media screen and (min-width: 1121px) and (max-width: 1250px) {
+        .home h1 {
+            font-size: 1.4rem;
+        }
+        .home h3 {
+            font-size: 1rem;
+        }
         .dados_conheca {
             display: flex;
             height: 400px;
